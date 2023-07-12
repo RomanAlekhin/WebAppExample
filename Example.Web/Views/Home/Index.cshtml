@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is a demo ASP.NET application.</p>
+    <p>Click on the buttons below.</p>
+    <a href="@Url.Action("Index", "User")" class="btn btn-primary mt-3">Browse Users</a>
+    <a href="@Url.Action("Add", "User")" class="btn btn-primary mt-3">Create New User</a>
+</div>
